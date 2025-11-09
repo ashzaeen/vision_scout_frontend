@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# 🚀 VisionScout Frontend  
 
-## Project info
+Frontend interface for **VisionScout** — an AI-powered assistant that analyzes real-world video input (from wearable glasses or camera uploads) to assess the condition and value of **cars** or **properties**.  
 
-**URL**: https://lovable.dev/projects/09eed232-0336-44d6-ae59-6df2f98ceda7
+This repository contains the **React + Vite frontend**, responsible for:  
+- Displaying live or recorded analysis results from the backend (YOLO / AI Detection Server)  
+- Managing user interactions and video/image uploads  
+- Rendering summarized detection insights and confidence scores  
+- Providing a clean dashboard for both **Car Mode** and **Property Mode**  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧭 Project Info  
+**Live Project (Lovable URL):** [VisionScout Frontend](https://lovable.dev/projects/09eed232-0336-44d6-ae59-6df2f98ceda7)  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/09eed232-0336-44d6-ae59-6df2f98ceda7) and start prompting.
+## 🛠️ Getting Started  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 1️⃣ Clone and Run Locally  
+Make sure you have **Node.js** and **npm** installed. (Recommended: use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clone this repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Move into the project directory
+cd vision-scout-frontend
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Run the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09eed232-0336-44d6-ae59-6df2f98ceda7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

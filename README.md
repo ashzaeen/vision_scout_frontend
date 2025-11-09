@@ -3,16 +3,10 @@
 Frontend interface for **VisionScout** — an AI-powered assistant that analyzes real-world video input (from wearable glasses or camera uploads) to assess the condition and value of **cars** or **properties**.  
 
 This repository contains the **React + Vite frontend**, responsible for:  
-- Displaying live or recorded analysis results from the backend (YOLO / AI Detection Server)  
-- Managing user interactions and video/image uploads  
-- Rendering summarized detection insights and confidence scores  
-- Providing a clean dashboard for both **Car Mode** and **Property Mode**  
-
----
-
-## 🧭 Project Info  
-**Live Project (Lovable URL):** [VisionScout Frontend](https://lovable.dev/projects/09eed232-0336-44d6-ae59-6df2f98ceda7)  
-
+- Displaying the **landing page**, which explains our project in detail with a **clean, interactive UI**  
+- Building a **listings page** with a **search bar**, a **mode toggle (Property / Cars)**, and **sleek cards** featuring popups for more detailed insights  
+- Presenting a **chatbot interface** for viewing confidence reports (detected using **Vision Smart Glasses** or fetched from connected APIs)  
+- Providing a **unified dashboard** for both **Car Mode** and **Property Mode** 
 ---
 
 ## 🛠️ Getting Started  
